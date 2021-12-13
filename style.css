@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+*{
+   margin:0;
+   padding:0;
+   outline:none;
+   box-sizing: border-box;
+   font-family: 'Josefin Sans', sans-serif;
+}
+#body{
+    background-color: white;
+}
+.wrapper{
+    display:flex;
+    border-radius: 2rem;
+    padding:5px;
+    position: absolute;
+    background:white;
+    border:none
+}
+.wrapper input{
+    height:40px;
+    width:250px;
+    border-radius: 2rem;
+}
+.wrapperradius {
+    border-radius:10%;
+    font-size: medium;
+}
+.div1  {
+
+
+    border-color: blue;
+    background:white;
+    width:20.33%;
+    
+    
+}
+.div2 {
+    background:rgba(1,2,1,0.5);
+    width:74.77%;
+    float:right;
+    background-color:whitesmoke;
+    
+}
+.container {
+    padding:2rem;
+    background: white;
+    size:99%;
+    max-height: 98%;
+    max-width: 98%;
+
+    
+}
+.container{
+    width:99%;
+    height:99%;
+    margin: none;
+}
+.cloudsun6{
+    position: absolute;
+    height: 280px;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 50px;
+    
+}
+.week{
+    color:rgba(49, 49, 238, 0.863);
+    position:relative;
+    left:30px;
+}
+.fahrenheit,.celsius{
+    max-width: 2%;
+    border-radius: 2rem;
+    float:right;
+    margin-right: 50px;
+
+    
+}
+.box {
+    position: relative;
+    width:calc(170px - 30px);
+    height:calc(200px - 30px);
+    float:left;
+    margin:25px;
+    box-sizing:border-box;
+    overflow:hidden;
+    border-radius:10px;
+    background: white;
+    margin-top:60px;
+    margin-left: 25px;
+
+
+}
+.box2 {
+    position: relative;
+    width:calc(420px - 30px);
+    height:calc(200px - 30px);
+    float:left;
+    margin:25px;
+    box-sizing:border-box;
+    overflow:hidden;
+    border-radius:10px;
+    background:white;
+    margin-top:80px;
+
+
+
+}
+.box3 {
+    position: relative;
+    width:calc(420px - 30px);
+    height:calc(200px - 30px);
+    float:left;
+    margin:25px;
+    box-sizing:border-box;
+    overflow:hidden;
+    border-radius:10px;
+    background: white;
+    grid-row:span;
+    margin-top: 80px;
+
+
+}
+.box4 {
+    position: relative;
+    top:650px;
+    width:calc(420px - 30px);
+    height:calc(200px - 30px);
+    float:left;
+    margin:15px;
+    box-sizing:border-box;
+    overflow:hidden;
+    border-radius:10px;
+    background: white;
+}
+ .cloudsun1 , .cloudsun2 , .cloudsun3 , .cloudsun4 , .cloudsun5 , .cloudrain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+      
+
+}
+.mon, .tue, .wed ,.thu ,.fri, .sat , .sun{
+    position:relative;
+    left:60px;
+    padding-top: 20px;
+}
+.box4{
+    max-width: 100%;
+    max-height:100%;
+    position: relative;
+    display:inline-block;
+}
+
+
+.uvindex{
+    max-width: 100%;
+    max-height:100%;
+    color:grey;
+}
+.cloudsun{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.mon {
+    margin-left: none;
+}
+
+.today{
+    padding-top: 10px;
+    display: block;
+    margin-left: 3rem;
+}
+.sunrise {
+        max-width: 40px;
+        max-height:40px;
+        border-radius: 2rem;
+        float:none;
+        margin-top: 1%;
+        margin-left:3%; 
+        position: absolute;
+}
+.set{
+    max-width: 40px;
+    max-height:40px;
+    border-radius: 2rem;
+    float:none;
+    margin-top: 10%;
+    margin-left:3%;
+    position: absolute;
+}
+.sunriseandset{
+    display: block;
+}
+.cloudicon {
+    position:relative;
+    top:580px;
+    left:2px;
+    max-width: 10%;
+    max-height:10%;
+    float:left;
+   
+    
+}
+.rainDrop{
+    position:relative;
+    top:620px;
+    left:60px;
+    max-width: 10%;
+    max-height:10%;
+    float:left;
+}
+.rainy {
+    position:relative;
+    top:630px;
+    left:70px;
+    max-width: 10%;
+    max-height:10%;
+    float:left;
+}
+.mostly{
+    position:relative;
+    top:580px;
+    left:10px;
+    max-width: 10%;
+    max-height:10%;
+    float:left;
+}
+
+.status{
+    position:relative;
+    top:110px;
+}
+.statuss{
+    position:relative;
+    top:90px;
+
+}
+.risetime{
+    position: relative;
+    top:20px;
+    left:80px;
+}
+.settime{
+    position: relative;
+    top:40px;
+    left:80px;
+}
+.pin {
+    position:relative;
+    top:80px;
+    max-width: 8%;
+    border-radius:none;
+    float:left
+}
+.degreecelcius{
+    position:absolute;
+    top:400px;
+    left:60px;
+    font-size: 480%;
+    font-weight: 800;
+    font-stretch: ultra-expanded;
+}
+.sonne{
+    position: relative;
+    top:450px;
+    left:120px;
+    max-width: 50%;
+    max-height: 50%;
+    display: inline;
+
+}
+.day {
+    position: absolute;
+    top:500px;
+    left:60px;
+}
+.time{
+    position: absolute;
+    top:500px;
+    left:140px;
+}
+.windspeed , .windspeed1 , .windspeed2, .windspeedd{
+    position:absolute;
+    top:40px;
+    left:110px;
+    font-size: 280%;
+    font-weight: 800;
+}
+.kmph{
+    position: relative;
+    top:40px;
+    left:250px;
+}
+.pinn{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color:white;
+}
+.temp{
+    position:relative;
+    left:50px;
+    bottom:10px;
+    top:30px;
+    padding-bottom: 3px;
+}
+#button{
+    max-width:10%;
+}
+
+    
+    
+
+
+
+
